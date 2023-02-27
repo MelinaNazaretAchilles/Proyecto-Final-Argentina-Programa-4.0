@@ -1,0 +1,24 @@
+/** Proyecto final - CV */
+
+/** Las siguientes lineas son para emprolijar el CV, mi idea en justificar el texto para que quede más estético (según yo queda mejor justificado) */
+
+#p0 { text-align: justify; }
+
+/** Quiero que mi nombre y carrera estén encuadrados */
+
+#h1 {
+		border:1px solid black;
+		padding: 5px;
+		margin: 30px;
+		font-weight: bold;
+		color: black;
+	}
+	
+/** Mi color favorito en rosa, entonces quiero que si alguien entra a mi CV de un celular, se vea rosa y como el rosa no siento que queda bien con el negro, le agrego letras grises oscuras **/
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: pink;
+		color:dark gray;
+	}
+}
